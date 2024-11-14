@@ -1,4 +1,4 @@
-package leetcode.lmy.com.二叉树中的最大路径和;
+package leetcode.lmy.com.二叉树的直径_543;
 
 public class TreeNode {
     int val;

@@ -1,4 +1,4 @@
-package leetcode.lmy.com.编辑距离;
+package leetcode.lmy.com.编辑距离_72;
 
 public class Solution {
 
