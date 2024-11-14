@@ -11,7 +11,6 @@ package leetcode.lmy.com.二叉树的直径;
  *    dfs(1) = Max(dfs(2) + dfs(3)) + 1
  *    dfs(2) = Max(dfs(4) + dfs(5) + 1
  *    dfs(4) = Max(dfs(null) + dfs(null)) + 1
- *
  *    理解题目意思,这个路径指的是边长,先理解答案应该返回什么
  *    dfs(1) = 3
  *    dfs(4) = 0 所以null里面才应该填-1
