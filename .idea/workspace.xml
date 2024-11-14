@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="企图在a数组找到合适的i使得整个数组被均匀的分成两部分">
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="统一文件名">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的中序遍历_94/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的中序遍历_94/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树的中序遍历_94" />
       <recent name="leetcode.lmy.com.删除排序链表中的重复元素_82" />
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
@@ -129,7 +132,7 @@
       <workItem from="1731054071646" duration="16377000" />
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
-      <workItem from="1731468463128" duration="18220000" />
+      <workItem from="1731468463128" duration="19184000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -211,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731591916681</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="统一文件名">
+      <option name="closed" value="true" />
+      <created>1731593110463</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731593110463</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +248,8 @@
     <MESSAGE value="dummy" />
     <MESSAGE value="删除重复元素&#10;dummy&#10;找到重复模式串，nxt指向末尾全部del" />
     <MESSAGE value="企图在a数组找到合适的i使得整个数组被均匀的分成两部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="企图在a数组找到合适的i使得整个数组被均匀的分成两部分" />
+    <MESSAGE value="统一文件名" />
+    <option name="LAST_COMMIT_MESSAGE" value="统一文件名" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
