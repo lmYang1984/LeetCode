@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="最大路径和&#10;返回的是过一边的结果&#10;单独的node为负数得保留">
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除链表的倒数第N个结点_19/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除链表的倒数第N个结点_19/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/最长公共子序列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/最长公共子序列/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/编辑距离/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/编辑距离/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/AAAJavaSrc/LeetCode/src/main/java/leetcode/lmy/com/Main.java",
-    "settings.editor.selected.configurable": "Code Search",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -130,7 +130,7 @@
       <workItem from="1731054071646" duration="16377000" />
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
-      <workItem from="1731468463128" duration="9136000" />
+      <workItem from="1731468463128" duration="11379000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731549498989</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre">
+      <option name="closed" value="true" />
+      <created>1731555346242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731555346242</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +202,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="二叉树直径" />
     <MESSAGE value="最大路径和&#10;返回的是过一边的结果&#10;单独的node为负数得保留" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大路径和&#10;返回的是过一边的结果&#10;单独的node为负数得保留" />
+    <MESSAGE value="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre" />
+    <option name="LAST_COMMIT_MESSAGE" value="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
