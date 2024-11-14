@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除链表的倒数第N个结点_19/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除链表的倒数第N个结点_19/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="dummy">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除排序链表中的重复元素_82/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除排序链表中的重复元素_82/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.删除排序链表中的重复元素_82" />
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
@@ -130,7 +132,7 @@
       <workItem from="1731054071646" duration="16377000" />
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
-      <workItem from="1731468463128" duration="11379000" />
+      <workItem from="1731468463128" duration="12738000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -180,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731555346242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dummy">
+      <option name="closed" value="true" />
+      <created>1731568468286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731568468286</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dummy">
+      <option name="closed" value="true" />
+      <created>1731568480793</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731568480793</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +221,8 @@
     <MESSAGE value="二叉树直径" />
     <MESSAGE value="最大路径和&#10;返回的是过一边的结果&#10;单独的node为负数得保留" />
     <MESSAGE value="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre" />
-    <option name="LAST_COMMIT_MESSAGE" value="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre" />
+    <MESSAGE value="dummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="dummy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
