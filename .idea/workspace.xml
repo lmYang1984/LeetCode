@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="从后往前找到&#10;a[i] &lt; a[j] 降序&#10;在a[j] 降序中找到最小的swap比a[i]&#10;swap&#10;之后升序">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/排序链表_148/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/排序链表_148/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="合并&#10;递归终止一个节点&#10;问题划分&#10;合并">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/回溯/括号生成_22/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +58,7 @@
     "Application.leetcode.lmy.com.二分.二分查找_704.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树中的最大路径和.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树的右视图_199.Solution.executor": "Run",
+    "Application.leetcode.lmy.com.回溯.括号生成_22.Solution.executor": "Run",
     "Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -87,20 +87,7 @@
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二叉树的直径_543.Solution" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.lmy.com.二叉树的直径_543.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.leetcode.lmy.com.回溯.括号生成_22.Solution">
     <configuration name="leetcode.lmy.com.二叉树中的最大路径和_124.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二叉树中的最大路径和_124.Solution" />
       <module name="LeetCode" />
@@ -120,6 +107,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.lmy.com.二叉树的右视图_199.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.lmy.com.回溯.括号生成_22.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.回溯.括号生成_22.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.lmy.com.回溯.括号生成_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.lmy.com.回溯.括号生成_22.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二分.二分查找_704.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二叉树的右视图_199.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二叉树中的最大路径和_124.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="9653000" />
+      <workItem from="1731635649328" duration="10753000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -313,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731641614861</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="合并&#10;递归终止一个节点&#10;问题划分&#10;合并">
+      <option name="closed" value="true" />
+      <created>1731658540531</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731658540531</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +353,8 @@
     <MESSAGE value="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等" />
     <MESSAGE value="in栈和out栈模拟队列" />
     <MESSAGE value="从后往前找到&#10;a[i] &lt; a[j] 降序&#10;在a[j] 降序中找到最小的swap比a[i]&#10;swap&#10;之后升序" />
-    <option name="LAST_COMMIT_MESSAGE" value="从后往前找到&#10;a[i] &lt; a[j] 降序&#10;在a[j] 降序中找到最小的swap比a[i]&#10;swap&#10;之后升序" />
+    <MESSAGE value="合并&#10;递归终止一个节点&#10;问题划分&#10;合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并&#10;递归终止一个节点&#10;问题划分&#10;合并" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
