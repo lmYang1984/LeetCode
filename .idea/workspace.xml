@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="统一文件名">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的中序遍历_94/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的中序遍历_94/TreeNode.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="中序遍历">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的右视图_199/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的右视图_199/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
   "keyToString": {
     "Application.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树中的最大路径和.Solution.executor": "Run",
+    "Application.leetcode.lmy.com.二叉树的右视图_199.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -74,12 +75,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树的右视图_199" />
       <recent name="leetcode.lmy.com.二叉树的中序遍历_94" />
       <recent name="leetcode.lmy.com.删除排序链表中的重复元素_82" />
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.lmy.com.二叉树中的最大路径和_124.Solution">
+  <component name="RunManager" selected="Application.leetcode.lmy.com.二叉树的右视图_199.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二叉树的直径_543.Solution" />
       <module name="LeetCode" />
@@ -106,8 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.lmy.com.二叉树的右视图_199.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二叉树的右视图_199.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.lmy.com.二叉树的右视图_199.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.lmy.com.二叉树的右视图_199.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二叉树中的最大路径和_124.Solution" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -132,7 +148,8 @@
       <workItem from="1731054071646" duration="16377000" />
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
-      <workItem from="1731468463128" duration="19184000" />
+      <workItem from="1731468463128" duration="19284000" />
+      <workItem from="1731635649328" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -222,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731593110463</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="中序遍历">
+      <option name="closed" value="true" />
+      <created>1731593964158</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731593964158</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +274,8 @@
     <MESSAGE value="删除重复元素&#10;dummy&#10;找到重复模式串，nxt指向末尾全部del" />
     <MESSAGE value="企图在a数组找到合适的i使得整个数组被均匀的分成两部分" />
     <MESSAGE value="统一文件名" />
-    <option name="LAST_COMMIT_MESSAGE" value="统一文件名" />
+    <MESSAGE value="中序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="中序遍历" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
