@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="层序遍历">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二分/二分查找_704/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/栈/用栈实现队列_232/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树中的最大路径和_124/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树中的最大路径和_124/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树中的最大路径和_124/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树中的最大路径和_124/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的中序遍历_94/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的中序遍历_94/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的中序遍历_94/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的中序遍历_94/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的右视图_199/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的右视图_199/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的右视图_199/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的右视图_199/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的直径_543/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的直径_543/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树的直径_543/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的直径_543/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除排序链表中的重复元素_82/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/删除排序链表中的重复元素_82/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除排序链表中的重复元素_82/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/删除排序链表中的重复元素_82/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除链表的倒数第N个结点_19/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/删除链表的倒数第N个结点_19/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/删除链表的倒数第N个结点_19/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/删除链表的倒数第N个结点_19/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/寻找两个正序数组的中位数_4/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二分/寻找两个正序数组的中位数_4/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/最长公共子序列_1143/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/最长公共子序列_1143/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/编辑距离_72/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/编辑距离_72/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/编辑距离_72/编辑距离转换.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/编辑距离_72/编辑距离转换.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Solution.executor": "Run",
+    "Application.leetcode.lmy.com.二分.二分查找_704.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树中的最大路径和.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树的右视图_199.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -89,6 +74,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode.lmy.com.二叉树的右视图_199" />
       <recent name="leetcode.lmy.com.二叉树的中序遍历_94" />
@@ -178,7 +166,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="1910000" />
+      <workItem from="1731635649328" duration="2656000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -284,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731636334781</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等">
+      <option name="closed" value="true" />
+      <created>1731637606887</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731637606887</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +309,8 @@
     <MESSAGE value="统一文件名" />
     <MESSAGE value="中序遍历" />
     <MESSAGE value="层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="层序遍历" />
+    <MESSAGE value="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
