@@ -1,4 +1,4 @@
-package leetcode.lmy.com.最长公共子序列_1143;
+package leetcode.lmy.com.动态规划.最长公共子序列_1143;
 
 public class Solution {
     /**

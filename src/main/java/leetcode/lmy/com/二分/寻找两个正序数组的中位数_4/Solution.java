@@ -1,4 +1,4 @@
-package leetcode.lmy.com.寻找两个正序数组的中位数_4;
+package leetcode.lmy.com.二分.寻找两个正序数组的中位数_4;
 
 public class Solution {
     /**

@@ -1,4 +1,4 @@
-package leetcode.lmy.com.删除链表的倒数第N个结点_19;
+package leetcode.lmy.com.链表.删除排序链表中的重复元素_82;
 
 public class ListNode {
     int val;

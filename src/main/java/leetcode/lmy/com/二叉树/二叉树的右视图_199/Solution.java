@@ -1,4 +1,4 @@
-package leetcode.lmy.com.二叉树的右视图_199;
+package leetcode.lmy.com.二叉树.二叉树的右视图_199;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

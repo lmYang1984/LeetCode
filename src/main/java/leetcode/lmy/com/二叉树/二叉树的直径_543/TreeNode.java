@@ -1,4 +1,4 @@
-package leetcode.lmy.com.二叉树的中序遍历_94;
+package leetcode.lmy.com.二叉树.二叉树的直径_543;
 
 public class TreeNode {
     int val;

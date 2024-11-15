@@ -1,4 +1,4 @@
-package leetcode.lmy.com.删除链表的倒数第N个结点_19;
+package leetcode.lmy.com.链表.删除链表的倒数第N个结点_19;
 
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {

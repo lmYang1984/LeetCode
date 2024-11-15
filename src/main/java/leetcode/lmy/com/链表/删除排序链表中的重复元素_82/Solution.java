@@ -1,4 +1,4 @@
-package leetcode.lmy.com.删除排序链表中的重复元素_82;
+package leetcode.lmy.com.链表.删除排序链表中的重复元素_82;
 
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
