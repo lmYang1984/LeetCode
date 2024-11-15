@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/栈/用栈实现队列_232/MyQueue.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="in栈和out栈模拟队列">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/数学问题/下一个排列_31/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "Application.leetcode.lmy.com.二分.二分查找_704.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树中的最大路径和.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树的右视图_199.Solution.executor": "Run",
+    "Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -84,7 +85,7 @@
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.lmy.com.二分.二分查找_704.Solution">
+  <component name="RunManager" selected="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二叉树的直径_543.Solution" />
       <module name="LeetCode" />
@@ -124,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.lmy.com.数学问题.下一个排列_31.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.lmy.com.数学问题.下一个排列_31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode.lmy.com.二分.二分查找_704.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二分.二分查找_704.Solution" />
       <module name="LeetCode" />
@@ -139,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二分.二分查找_704.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二叉树的右视图_199.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二叉树中的最大路径和_124.Solution" />
@@ -166,7 +181,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="2656000" />
+      <workItem from="1731635649328" duration="5944000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -280,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731637606887</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="in栈和out栈模拟队列">
+      <option name="closed" value="true" />
+      <created>1731638331264</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731638331264</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +333,8 @@
     <MESSAGE value="中序遍历" />
     <MESSAGE value="层序遍历" />
     <MESSAGE value="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等" />
+    <MESSAGE value="in栈和out栈模拟队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="in栈和out栈模拟队列" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
