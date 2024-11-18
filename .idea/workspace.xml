@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/两数相加_2/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/两数相加_2/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="模拟数字相加&#10;注意最后加完一位的adder重新生成">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/比较版本号_165/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +60,7 @@
     "Application.leetcode.lmy.com.二叉树的右视图_199.Solution.executor": "Run",
     "Application.leetcode.lmy.com.回溯.括号生成_22.Solution.executor": "Run",
     "Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution.executor": "Run",
+    "Application.leetcode.lmy.com.模拟.比较版本号_165.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -88,7 +88,7 @@
       <recent name="leetcode.lmy.com.删除排序链表中的重复元素_82" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.模拟.字符串转换整数_8.Solution" />
       <module name="LeetCode" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.lmy.com.二叉树的右视图_199.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二叉树的右视图_199.Solution" />
+    <configuration name="leetcode.lmy.com.模拟.比较版本号_165.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.模拟.比较版本号_165.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.lmy.com.二叉树的右视图_199.*" />
+          <option name="PATTERN" value="leetcode.lmy.com.模拟.比较版本号_165.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.回溯.括号生成_22.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二分.二分查找_704.Solution" />
-        <item itemvalue="Application.leetcode.lmy.com.二叉树的右视图_199.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="15277000" />
+      <workItem from="1731635649328" duration="17521000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -354,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731899909779</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="模拟数字相加&#10;注意最后加完一位的adder重新生成">
+      <option name="closed" value="true" />
+      <created>1731900563298</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731900563298</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +399,8 @@
     <MESSAGE value="数组越界的判断&#10;res &lt; maxv / 10&#10;res == maxv / 10 &amp;&amp; num &gt; 7" />
     <MESSAGE value="注意判断两种合法int的越界&#10;a + b 和 a * a" />
     <MESSAGE value="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和" />
+    <MESSAGE value="模拟数字相加&#10;注意最后加完一位的adder重新生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="模拟数字相加&#10;注意最后加完一位的adder重新生成" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
