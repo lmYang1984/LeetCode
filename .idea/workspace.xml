@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="数组越界的判断&#10;res &lt; maxv / 10&#10;res == maxv / 10 &amp;&amp; num &gt; 7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二分/x的平方根_69/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="注意判断两种合法int的越界&#10;a + b 和 a * a">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/爬楼梯_70/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="14307000" />
+      <workItem from="1731635649328" duration="14617000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -337,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731899090955</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="注意判断两种合法int的越界&#10;a + b 和 a * a">
+      <option name="closed" value="true" />
+      <created>1731899562256</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731899562256</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +379,8 @@
     <MESSAGE value="合并&#10;递归终止一个节点&#10;问题划分&#10;合并" />
     <MESSAGE value="回溯&#10;先确定左括号&#10;右边括号不多于左括号" />
     <MESSAGE value="数组越界的判断&#10;res &lt; maxv / 10&#10;res == maxv / 10 &amp;&amp; num &gt; 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组越界的判断&#10;res &lt; maxv / 10&#10;res == maxv / 10 &amp;&amp; num &gt; 7" />
+    <MESSAGE value="注意判断两种合法int的越界&#10;a + b 和 a * a" />
+    <option name="LAST_COMMIT_MESSAGE" value="注意判断两种合法int的越界&#10;a + b 和 a * a" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
