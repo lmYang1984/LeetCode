@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="单调栈&#10;只有加入的元素大于才需要操作&#10;判断越界&#10;存入res&#10;window中仅保存可能为最值的值">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/数学问题/缺失的第一个正数_41/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="主要是交换的判定式&#10;nums[i] != nums[nums[i] - 1]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/零钱兑换_322/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="19587000" />
+      <workItem from="1731635649328" duration="20342000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -378,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731919030374</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="主要是交换的判定式&#10;nums[i] != nums[nums[i] - 1]">
+      <option name="closed" value="true" />
+      <created>1731921842915</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731921842915</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +426,8 @@
     <MESSAGE value="模拟数字相加&#10;注意最后加完一位的adder重新生成" />
     <MESSAGE value="两个指针同时遍历&#10;while(p1 &lt; len || p2 &lt; len)" />
     <MESSAGE value="单调栈&#10;只有加入的元素大于才需要操作&#10;判断越界&#10;存入res&#10;window中仅保存可能为最值的值" />
-    <option name="LAST_COMMIT_MESSAGE" value="单调栈&#10;只有加入的元素大于才需要操作&#10;判断越界&#10;存入res&#10;window中仅保存可能为最值的值" />
+    <MESSAGE value="主要是交换的判定式&#10;nums[i] != nums[nums[i] - 1]" />
+    <option name="LAST_COMMIT_MESSAGE" value="主要是交换的判定式&#10;nums[i] != nums[nums[i] - 1]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
