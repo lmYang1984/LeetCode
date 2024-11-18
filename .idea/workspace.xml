@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="模拟数字相加&#10;注意最后加完一位的adder重新生成">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/比较版本号_165/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="两个指针同时遍历&#10;while(p1 &lt; len || p2 &lt; len)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/栈/滑动窗口最大值_239/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="17521000" />
+      <workItem from="1731635649328" duration="18463000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -362,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731900563298</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="两个指针同时遍历&#10;while(p1 &lt; len || p2 &lt; len)">
+      <option name="closed" value="true" />
+      <created>1731914631999</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731914631999</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +408,8 @@
     <MESSAGE value="注意判断两种合法int的越界&#10;a + b 和 a * a" />
     <MESSAGE value="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和" />
     <MESSAGE value="模拟数字相加&#10;注意最后加完一位的adder重新生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟数字相加&#10;注意最后加完一位的adder重新生成" />
+    <MESSAGE value="两个指针同时遍历&#10;while(p1 &lt; len || p2 &lt; len)" />
+    <option name="LAST_COMMIT_MESSAGE" value="两个指针同时遍历&#10;while(p1 &lt; len || p2 &lt; len)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
