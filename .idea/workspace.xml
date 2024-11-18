@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="注意判断两种合法int的越界&#10;a + b 和 a * a">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/爬楼梯_70/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/两数相加_2/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/两数相加_2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +81,11 @@
       <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.模拟.两数相加_2" />
       <recent name="leetcode.lmy.com.链表.排序链表_148" />
       <recent name="leetcode.lmy.com.二叉树的右视图_199" />
       <recent name="leetcode.lmy.com.二叉树的中序遍历_94" />
       <recent name="leetcode.lmy.com.删除排序链表中的重复元素_82" />
-      <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution">
@@ -182,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="14617000" />
+      <workItem from="1731635649328" duration="15277000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -344,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731899562256</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和">
+      <option name="closed" value="true" />
+      <created>1731899909779</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731899909779</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +390,8 @@
     <MESSAGE value="回溯&#10;先确定左括号&#10;右边括号不多于左括号" />
     <MESSAGE value="数组越界的判断&#10;res &lt; maxv / 10&#10;res == maxv / 10 &amp;&amp; num &gt; 7" />
     <MESSAGE value="注意判断两种合法int的越界&#10;a + b 和 a * a" />
-    <option name="LAST_COMMIT_MESSAGE" value="注意判断两种合法int的越界&#10;a + b 和 a * a" />
+    <MESSAGE value="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
