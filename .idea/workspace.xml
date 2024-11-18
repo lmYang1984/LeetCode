@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="合并&#10;递归终止一个节点&#10;问题划分&#10;合并">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/回溯/括号生成_22/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="回溯&#10;先确定左括号&#10;右边括号不多于左括号">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/字符串转换整数_8/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/字符串转换整数_8/tmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,13 +88,13 @@
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.lmy.com.回溯.括号生成_22.Solution">
-    <configuration name="leetcode.lmy.com.二叉树中的最大路径和_124.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二叉树中的最大路径和_124.Solution" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.模拟.字符串转换整数_8.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.lmy.com.二叉树中的最大路径和_124.*" />
+          <option name="PATTERN" value="leetcode.lmy.com.模拟.字符串转换整数_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.回溯.括号生成_22.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二分.二分查找_704.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.二叉树的右视图_199.Solution" />
-        <item itemvalue="Application.leetcode.lmy.com.二叉树中的最大路径和_124.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="10753000" />
+      <workItem from="1731635649328" duration="13796000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -321,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731658540531</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="回溯&#10;先确定左括号&#10;右边括号不多于左括号">
+      <option name="closed" value="true" />
+      <created>1731659663053</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731659663053</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +363,8 @@
     <MESSAGE value="in栈和out栈模拟队列" />
     <MESSAGE value="从后往前找到&#10;a[i] &lt; a[j] 降序&#10;在a[j] 降序中找到最小的swap比a[i]&#10;swap&#10;之后升序" />
     <MESSAGE value="合并&#10;递归终止一个节点&#10;问题划分&#10;合并" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并&#10;递归终止一个节点&#10;问题划分&#10;合并" />
+    <MESSAGE value="回溯&#10;先确定左括号&#10;右边括号不多于左括号" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯&#10;先确定左括号&#10;右边括号不多于左括号" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
