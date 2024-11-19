@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="链表倒数k个结点">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/从前序与中序遍历序列构造二叉树_105/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/从前序与中序遍历序列构造二叉树_105/TreeNode.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="递归&#10;root 前序左子树 前序右子树&#10;中序左子树 root 中序右子树&#10;只需要知道左子树大小，顺利将左右子树对应起来即可">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/双指针/最小覆盖子串_76/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="23302000" />
+      <workItem from="1731635649328" duration="25949000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -411,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731933496148</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="递归&#10;root 前序左子树 前序右子树&#10;中序左子树 root 中序右子树&#10;只需要知道左子树大小，顺利将左右子树对应起来即可">
+      <option name="closed" value="true" />
+      <created>1731984844958</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731984844959</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
     <MESSAGE value="二叉树直径" />
     <MESSAGE value="最大路径和&#10;返回的是过一边的结果&#10;单独的node为负数得保留" />
     <MESSAGE value="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre" />
@@ -454,7 +460,8 @@
     <MESSAGE value="基础动态规划，考虑某个硬币选择与否的递推" />
     <MESSAGE value="括号匹配,只能以右括号结尾" />
     <MESSAGE value="链表倒数k个结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表倒数k个结点" />
+    <MESSAGE value="递归&#10;root 前序左子树 前序右子树&#10;中序左子树 root 中序右子树&#10;只需要知道左子树大小，顺利将左右子树对应起来即可" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归&#10;root 前序左子树 前序右子树&#10;中序左子树 root 中序右子树&#10;只需要知道左子树大小，顺利将左右子树对应起来即可" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
