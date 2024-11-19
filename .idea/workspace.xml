@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="类似的问题dfs去访问遍历树的路径&#10;控制访问顺序&#10;控制保存结点时机">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/回溯/组合_77/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/回溯/组合总和_216/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="组合与排列&#10;组合foridx&#10;排列fori + boolean">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/字符串相乘_43/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/字符串相乘_43/tmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +185,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="28416000" />
+      <workItem from="1731635649328" duration="29965000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -435,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732001156526</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="组合与排列&#10;组合foridx&#10;排列fori + boolean">
+      <option name="closed" value="true" />
+      <created>1732003168816</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1732003168816</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre" />
     <MESSAGE value="dummy" />
     <MESSAGE value="删除重复元素&#10;dummy&#10;找到重复模式串，nxt指向末尾全部del" />
     <MESSAGE value="企图在a数组找到合适的i使得整个数组被均匀的分成两部分" />
@@ -478,7 +485,8 @@
     <MESSAGE value="递归&#10;root 前序左子树 前序右子树&#10;中序左子树 root 中序右子树&#10;只需要知道左子树大小，顺利将左右子树对应起来即可" />
     <MESSAGE value="覆盖子串&#10;双指针 + 滑动窗口&#10;值得学习的点是用hashmap去维护窗口和t串之间的匹配情况" />
     <MESSAGE value="类似的问题dfs去访问遍历树的路径&#10;控制访问顺序&#10;控制保存结点时机" />
-    <option name="LAST_COMMIT_MESSAGE" value="类似的问题dfs去访问遍历树的路径&#10;控制访问顺序&#10;控制保存结点时机" />
+    <MESSAGE value="组合与排列&#10;组合foridx&#10;排列fori + boolean" />
+    <option name="LAST_COMMIT_MESSAGE" value="组合与排列&#10;组合foridx&#10;排列fori + boolean" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
