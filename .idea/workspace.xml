@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="递归，要知道回溯的时机">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/对称二叉树_101/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/对称二叉树_101/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="问题拆分成最小子问题，判断两颗子树是否对称">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的前序遍历_144/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的前序遍历_144/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +81,11 @@
       <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树.二叉树的前序遍历_144" />
       <recent name="leetcode.lmy.com.二叉树.对称二叉树_101" />
       <recent name="leetcode.lmy.com.二叉树.求根节点到叶节点数字之和_129" />
       <recent name="leetcode.lmy.com.栈.最小栈_155" />
       <recent name="leetcode.lmy.com.二叉树.从前序与中序遍历序列构造二叉树_105" />
-      <recent name="leetcode.lmy.com.链表.倒数k个结点_140" />
     </key>
   </component>
   <component name="RunManager" selected="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution">
@@ -185,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="33921000" />
+      <workItem from="1731635649328" duration="34248000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -475,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732068608190</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="问题拆分成最小子问题，判断两颗子树是否对称">
+      <option name="closed" value="true" />
+      <created>1732069540240</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1732069540241</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="中序遍历" />
     <MESSAGE value="层序遍历" />
     <MESSAGE value="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等" />
     <MESSAGE value="in栈和out栈模拟队列" />
@@ -518,7 +524,8 @@
     <MESSAGE value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
     <MESSAGE value="用一个stack保存单调递减序列" />
     <MESSAGE value="递归，要知道回溯的时机" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归，要知道回溯的时机" />
+    <MESSAGE value="问题拆分成最小子问题，判断两颗子树是否对称" />
+    <option name="LAST_COMMIT_MESSAGE" value="问题拆分成最小子问题，判断两颗子树是否对称" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
