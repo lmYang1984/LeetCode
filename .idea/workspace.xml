@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="精髓在于个位相乘的式子&#10;int p1 = i + j;//十位&#10;int p2 = i + j + 1;//个位&#10;int sum = num + res[p2];&#10;res[p2] = sum % 10;&#10;res[p1] += sum / 10;" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +183,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="30870000" />
+      <workItem from="1731635649328" duration="32330000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -447,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732004867490</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦">
+      <option name="closed" value="true" />
+      <created>1732006846690</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1732006846690</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除重复元素&#10;dummy&#10;找到重复模式串，nxt指向末尾全部del" />
     <MESSAGE value="企图在a数组找到合适的i使得整个数组被均匀的分成两部分" />
     <MESSAGE value="统一文件名" />
     <MESSAGE value="中序遍历" />
@@ -490,7 +499,8 @@
     <MESSAGE value="类似的问题dfs去访问遍历树的路径&#10;控制访问顺序&#10;控制保存结点时机" />
     <MESSAGE value="组合与排列&#10;组合foridx&#10;排列fori + boolean" />
     <MESSAGE value="精髓在于个位相乘的式子&#10;int p1 = i + j;//十位&#10;int p2 = i + j + 1;//个位&#10;int sum = num + res[p2];&#10;res[p2] = sum % 10;&#10;res[p1] += sum / 10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="精髓在于个位相乘的式子&#10;int p1 = i + j;//十位&#10;int p2 = i + j + 1;//个位&#10;int sum = num + res[p2];&#10;res[p2] = sum % 10;&#10;res[p1] += sum / 10;" />
+    <MESSAGE value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
+    <option name="LAST_COMMIT_MESSAGE" value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
