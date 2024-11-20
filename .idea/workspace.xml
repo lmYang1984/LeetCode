@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦">
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="用一个stack保存单调递减序列">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/求根节点到叶节点数字之和_129/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/求根节点到叶节点数字之和_129/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +82,11 @@
       <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树.求根节点到叶节点数字之和_129" />
+      <recent name="leetcode.lmy.com.栈.最小栈_155" />
       <recent name="leetcode.lmy.com.二叉树.从前序与中序遍历序列构造二叉树_105" />
       <recent name="leetcode.lmy.com.链表.倒数k个结点_140" />
       <recent name="leetcode.lmy.com.模拟.两数相加_2" />
-      <recent name="leetcode.lmy.com.链表.排序链表_148" />
-      <recent name="leetcode.lmy.com.二叉树的右视图_199" />
     </key>
   </component>
   <component name="RunManager" selected="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution">
@@ -183,7 +185,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="32330000" />
+      <workItem from="1731635649328" duration="33180000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -457,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732006846690</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="用一个stack保存单调递减序列">
+      <option name="closed" value="true" />
+      <created>1732067185614</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1732067185614</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="企图在a数组找到合适的i使得整个数组被均匀的分成两部分" />
     <MESSAGE value="统一文件名" />
     <MESSAGE value="中序遍历" />
     <MESSAGE value="层序遍历" />
@@ -500,7 +509,8 @@
     <MESSAGE value="组合与排列&#10;组合foridx&#10;排列fori + boolean" />
     <MESSAGE value="精髓在于个位相乘的式子&#10;int p1 = i + j;//十位&#10;int p2 = i + j + 1;//个位&#10;int sum = num + res[p2];&#10;res[p2] = sum % 10;&#10;res[p1] += sum / 10;" />
     <MESSAGE value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
-    <option name="LAST_COMMIT_MESSAGE" value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
+    <MESSAGE value="用一个stack保存单调递减序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="用一个stack保存单调递减序列" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
