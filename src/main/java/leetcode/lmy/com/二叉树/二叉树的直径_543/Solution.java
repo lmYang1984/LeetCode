@@ -17,24 +17,22 @@ package leetcode.lmy.com.二叉树.二叉树的直径_543;
  */
 
 class Solution {
-    private int ans;
-
+    int res = 0;
     public int diameterOfBinaryTree(TreeNode root) {
-        dfs (root);
+        dfs(root);
 
-        return  ans;
+        return res;
     }
 
-    private int dfs(TreeNode node) {
-        if (node == null) {
-            return -1;
-        }
+    public int dfs(TreeNode root) {
+        if (root == null) return -1;
 
-        int leftLen = dfs(node.left) + 1;
-        int rightLen = dfs(node.right) + 1;
-        ans = Math.max(ans, (leftLen + rightLen));
+        int l = dfs(root.left);
+        int r = dfs(root.right);
+        //dfs(1) = dfs(2) + dfs(3) + 2;
+        res = Math.max(res, l + r + 2);//自己做转折点
 
-        return leftLen + rightLen;
+        return Math.max(l, r) + 1;//作为root的一个分支，只能选l或者r
     }
 
     public static void main(String[] args) {
