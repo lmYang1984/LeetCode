@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="二叉搜索树中序遍历为递增序列！&#10;二叉搜索树中序遍历为递增序列！&#10;二叉搜索树中序遍历为递增序列！">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/最大正方形_221/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="dp[i][j]表示m[i-1][j-1]为1，且为ending的最大正方形&#10;把矩阵中枚举一遍" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +181,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="38837000" />
+      <workItem from="1731635649328" duration="39519000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -530,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732089874937</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="dp[i][j]表示m[i-1][j-1]为1，且为ending的最大正方形&#10;把矩阵中枚举一遍">
+      <option name="closed" value="true" />
+      <created>1732093568103</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1732093568103</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组越界的判断&#10;res &lt; maxv / 10&#10;res == maxv / 10 &amp;&amp; num &gt; 7" />
     <MESSAGE value="注意判断两种合法int的越界&#10;a + b 和 a * a" />
     <MESSAGE value="递推爬到i阶的方法数 = 爬到i-1和i-2的数字之和" />
     <MESSAGE value="模拟数字相加&#10;注意最后加完一位的adder重新生成" />
@@ -573,7 +577,8 @@
     <MESSAGE value="用高度去判断二叉树是否平衡，用特值传递结果" />
     <MESSAGE value="注意旋转规律&#10;从i行 交换到 n - 1 - i列&#10;从j列 交换到 j行" />
     <MESSAGE value="二叉搜索树中序遍历为递增序列！&#10;二叉搜索树中序遍历为递增序列！&#10;二叉搜索树中序遍历为递增序列！" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树中序遍历为递增序列！&#10;二叉搜索树中序遍历为递增序列！&#10;二叉搜索树中序遍历为递增序列！" />
+    <MESSAGE value="dp[i][j]表示m[i-1][j-1]为1，且为ending的最大正方形&#10;把矩阵中枚举一遍" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp[i][j]表示m[i-1][j-1]为1，且为ending的最大正方形&#10;把矩阵中枚举一遍" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
