@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="感觉懵懵的也做出来了，一开始让i=0把顺序不同的结果也返回了，加了个idx过了，目的是限制一种顺序，递归下去的时候i不加1说明当前元素还能选" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="用高度去判断二叉树是否平衡，用特值传递结果">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/数学问题/旋转图像_48/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,11 +81,11 @@
       <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树.平衡二叉树_110" />
       <recent name="leetcode.lmy.com.回溯.组合总数_39" />
       <recent name="leetcode.lmy.com.二叉树.二叉树最大深度_104" />
       <recent name="leetcode.lmy.com.二叉树.二叉树的前序遍历_144" />
       <recent name="leetcode.lmy.com.二叉树.对称二叉树_101" />
-      <recent name="leetcode.lmy.com.二叉树.求根节点到叶节点数字之和_129" />
     </key>
   </component>
   <component name="RunManager" selected="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution">
@@ -181,7 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="36000000" />
+      <workItem from="1731635649328" duration="37031000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -503,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732071456265</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="用高度去判断二叉树是否平衡，用特值传递结果">
+      <option name="closed" value="true" />
+      <created>1732072364361</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1732072364361</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="从后往前找到&#10;a[i] &lt; a[j] 降序&#10;在a[j] 降序中找到最小的swap比a[i]&#10;swap&#10;之后升序" />
     <MESSAGE value="合并&#10;递归终止一个节点&#10;问题划分&#10;合并" />
     <MESSAGE value="回溯&#10;先确定左括号&#10;右边括号不多于左括号" />
     <MESSAGE value="数组越界的判断&#10;res &lt; maxv / 10&#10;res == maxv / 10 &amp;&amp; num &gt; 7" />
@@ -546,7 +556,8 @@
     <MESSAGE value="递归比较简单，迭代要麻烦很多" />
     <MESSAGE value="这种带一个值传进去表达某一层结点的信息很适合带当前结点深度或者是说乘积之类的东西" />
     <MESSAGE value="感觉懵懵的也做出来了，一开始让i=0把顺序不同的结果也返回了，加了个idx过了，目的是限制一种顺序，递归下去的时候i不加1说明当前元素还能选" />
-    <option name="LAST_COMMIT_MESSAGE" value="感觉懵懵的也做出来了，一开始让i=0把顺序不同的结果也返回了，加了个idx过了，目的是限制一种顺序，递归下去的时候i不加1说明当前元素还能选" />
+    <MESSAGE value="用高度去判断二叉树是否平衡，用特值传递结果" />
+    <option name="LAST_COMMIT_MESSAGE" value="用高度去判断二叉树是否平衡，用特值传递结果" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
