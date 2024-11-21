@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="首先是没看清题目迭代decoder&#10;这种一眼就是用栈&#10;比较关键的是入栈和出栈的时机&#10;其恰好是[和]&#10;灵活的重置入栈的num和res">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/数学问题/搜索二维矩阵_240/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="抓住边角开始划分挺巧妙的思路" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +182,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="43341000" />
+      <workItem from="1731635649328" duration="43803000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -571,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732160428905</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="抓住边角开始划分挺巧妙的思路">
+      <option name="closed" value="true" />
+      <created>1732176555139</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1732176555139</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="主要是交换的判定式&#10;nums[i] != nums[nums[i] - 1]" />
     <MESSAGE value="基础动态规划，考虑某个硬币选择与否的递推" />
     <MESSAGE value="括号匹配,只能以右括号结尾" />
     <MESSAGE value="链表倒数k个结点" />
@@ -614,7 +618,8 @@
     <MESSAGE value="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作" />
     <MESSAGE value="先验知识，尝试推导一个判别能否让res落在某个区间&#10;//[2, 3, 1, 5]&#10;//l = 0; r = 2; mid = 1&#10;//r = 0; 发现l == r的时候不是," />
     <MESSAGE value="首先是没看清题目迭代decoder&#10;这种一眼就是用栈&#10;比较关键的是入栈和出栈的时机&#10;其恰好是[和]&#10;灵活的重置入栈的num和res" />
-    <option name="LAST_COMMIT_MESSAGE" value="首先是没看清题目迭代decoder&#10;这种一眼就是用栈&#10;比较关键的是入栈和出栈的时机&#10;其恰好是[和]&#10;灵活的重置入栈的num和res" />
+    <MESSAGE value="抓住边角开始划分挺巧妙的思路" />
+    <option name="LAST_COMMIT_MESSAGE" value="抓住边角开始划分挺巧妙的思路" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
