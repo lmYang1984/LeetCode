@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="二分必做&#10;if (nums[mid] &lt; target) &#10;    l = mid + 1;&#10;    说明l会落在&gt;=target的第一个数上&#10;else&#10;    r = mid - 1;&#10;    &#10;if (nums[mid] &lt;= target) &#10;    l = mid + 1;&#10;    说明l会落在&lt;target的第一个数上&#10;else&#10;    r = mid - 1;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/数学问题/用Rand7实现Rand10_470/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +181,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="40365000" />
+      <workItem from="1731635649328" duration="41157000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -546,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732095081219</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作">
+      <option name="closed" value="true" />
+      <created>1732154196560</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1732154196560</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="模拟数字相加&#10;注意最后加完一位的adder重新生成" />
     <MESSAGE value="两个指针同时遍历&#10;while(p1 &lt; len || p2 &lt; len)" />
     <MESSAGE value="单调栈&#10;只有加入的元素大于才需要操作&#10;判断越界&#10;存入res&#10;window中仅保存可能为最值的值" />
     <MESSAGE value="主要是交换的判定式&#10;nums[i] != nums[nums[i] - 1]" />
@@ -589,7 +593,8 @@
     <MESSAGE value="dp[i][j]表示m[i-1][j-1]为1，且为ending的最大正方形&#10;把矩阵中枚举一遍" />
     <MESSAGE value="二分必做&#10;if (nums[mid] &lt; target) &#10;l = mid + 1;&#10;    else&#10;r = mid - 1;" />
     <MESSAGE value="二分必做&#10;if (nums[mid] &lt; target) &#10;    l = mid + 1;&#10;    说明l会落在&gt;=target的第一个数上&#10;else&#10;    r = mid - 1;&#10;    &#10;if (nums[mid] &lt;= target) &#10;    l = mid + 1;&#10;    说明l会落在&lt;target的第一个数上&#10;else&#10;    r = mid - 1;" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分必做&#10;if (nums[mid] &lt; target) &#10;    l = mid + 1;&#10;    说明l会落在&gt;=target的第一个数上&#10;else&#10;    r = mid - 1;&#10;    &#10;if (nums[mid] &lt;= target) &#10;    l = mid + 1;&#10;    说明l会落在&lt;target的第一个数上&#10;else&#10;    r = mid - 1;" />
+    <MESSAGE value="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
