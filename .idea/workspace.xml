@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="先验知识，尝试推导一个判别能否让res落在某个区间&#10;//[2, 3, 1, 5]&#10;//l = 0; r = 2; mid = 1&#10;//r = 0; 发现l == r的时候不是," />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +85,7 @@
       <recent name="leetcode.lmy.com.二叉树.二叉树的前序遍历_144" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution">
+  <component name="RunManager" selected="Application.leetcode.lmy.com.栈.字符串解码_394.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.模拟.字符串转换整数_8.Solution" />
       <module name="LeetCode" />
@@ -138,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.lmy.com.二分.二分查找_704.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.二分.二分查找_704.Solution" />
+    <configuration name="leetcode.lmy.com.栈.字符串解码_394.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.栈.字符串解码_394.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.lmy.com.二分.二分查找_704.*" />
+          <option name="PATTERN" value="leetcode.lmy.com.栈.字符串解码_394.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.lmy.com.栈.字符串解码_394.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.回溯.括号生成_22.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
-        <item itemvalue="Application.leetcode.lmy.com.二分.二分查找_704.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="41157000" />
+      <workItem from="1731635649328" duration="41870000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -551,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732154196560</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="先验知识，尝试推导一个判别能否让res落在某个区间&#10;//[2, 3, 1, 5]&#10;//l = 0; r = 2; mid = 1&#10;//r = 0; 发现l == r的时候不是,">
+      <option name="closed" value="true" />
+      <created>1732156874021</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1732156874021</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两个指针同时遍历&#10;while(p1 &lt; len || p2 &lt; len)" />
     <MESSAGE value="单调栈&#10;只有加入的元素大于才需要操作&#10;判断越界&#10;存入res&#10;window中仅保存可能为最值的值" />
     <MESSAGE value="主要是交换的判定式&#10;nums[i] != nums[nums[i] - 1]" />
     <MESSAGE value="基础动态规划，考虑某个硬币选择与否的递推" />
@@ -594,7 +601,8 @@
     <MESSAGE value="二分必做&#10;if (nums[mid] &lt; target) &#10;l = mid + 1;&#10;    else&#10;r = mid - 1;" />
     <MESSAGE value="二分必做&#10;if (nums[mid] &lt; target) &#10;    l = mid + 1;&#10;    说明l会落在&gt;=target的第一个数上&#10;else&#10;    r = mid - 1;&#10;    &#10;if (nums[mid] &lt;= target) &#10;    l = mid + 1;&#10;    说明l会落在&lt;target的第一个数上&#10;else&#10;    r = mid - 1;" />
     <MESSAGE value="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="数学问题用rand a实现 rand b&#10;a &lt; b&#10;rand(a) - 1 * a + rand(a) * 1&#10;变成进制转换后，覆盖b，然后操作" />
+    <MESSAGE value="先验知识，尝试推导一个判别能否让res落在某个区间&#10;//[2, 3, 1, 5]&#10;//l = 0; r = 2; mid = 1&#10;//r = 0; 发现l == r的时候不是," />
+    <option name="LAST_COMMIT_MESSAGE" value="先验知识，尝试推导一个判别能否让res落在某个区间&#10;//[2, 3, 1, 5]&#10;//l = 0; r = 2; mid = 1&#10;//r = 0; 发现l == r的时候不是," />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
