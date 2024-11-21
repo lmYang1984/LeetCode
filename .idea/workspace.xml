@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="常规dp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/回溯/路径总和_113/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/最长公共前缀_14/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +82,11 @@
       <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.回溯.路径总和_113" />
       <recent name="leetcode.lmy.com.二叉树.验证二叉搜索树_98" />
       <recent name="leetcode.lmy.com.二叉树.平衡二叉树_110" />
       <recent name="leetcode.lmy.com.回溯.组合总数_39" />
       <recent name="leetcode.lmy.com.二叉树.二叉树最大深度_104" />
-      <recent name="leetcode.lmy.com.二叉树.二叉树的前序遍历_144" />
     </key>
   </component>
   <component name="RunManager" selected="Application.leetcode.lmy.com.栈.字符串解码_394.Solution">
@@ -185,15 +185,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="44461000" />
-    </task>
-    <task id="LOCAL-00002" summary="1">
-      <option name="closed" value="true" />
-      <created>1731054790380</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1731054790380</updated>
+      <workItem from="1731635649328" duration="45215000" />
     </task>
     <task id="LOCAL-00003" summary="1">
       <option name="closed" value="true" />
@@ -579,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732177013399</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar">
+      <option name="closed" value="true" />
+      <created>1732178032931</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1732178032931</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="括号匹配,只能以右括号结尾" />
     <MESSAGE value="链表倒数k个结点" />
     <MESSAGE value="递归&#10;root 前序左子树 前序右子树&#10;中序左子树 root 中序右子树&#10;只需要知道左子树大小，顺利将左右子树对应起来即可" />
     <MESSAGE value="覆盖子串&#10;双指针 + 滑动窗口&#10;值得学习的点是用hashmap去维护窗口和t串之间的匹配情况" />
@@ -622,7 +621,8 @@
     <MESSAGE value="首先是没看清题目迭代decoder&#10;这种一眼就是用栈&#10;比较关键的是入栈和出栈的时机&#10;其恰好是[和]&#10;灵活的重置入栈的num和res" />
     <MESSAGE value="抓住边角开始划分挺巧妙的思路" />
     <MESSAGE value="常规dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="常规dp" />
+    <MESSAGE value="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
