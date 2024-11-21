@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/最长公共前缀_14/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="就拿第一个字符串别的开始比" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,15 +182,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="45215000" />
-    </task>
-    <task id="LOCAL-00003" summary="1">
-      <option name="closed" value="true" />
-      <created>1731219633210</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1731219633210</updated>
+      <workItem from="1731635649328" duration="45859000" />
     </task>
     <task id="LOCAL-00004" summary="二叉树直径">
       <option name="closed" value="true" />
@@ -579,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732178032931</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="就拿第一个字符串别的开始比">
+      <option name="closed" value="true" />
+      <created>1732178835931</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732178835931</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="链表倒数k个结点" />
     <MESSAGE value="递归&#10;root 前序左子树 前序右子树&#10;中序左子树 root 中序右子树&#10;只需要知道左子树大小，顺利将左右子树对应起来即可" />
     <MESSAGE value="覆盖子串&#10;双指针 + 滑动窗口&#10;值得学习的点是用hashmap去维护窗口和t串之间的匹配情况" />
     <MESSAGE value="类似的问题dfs去访问遍历树的路径&#10;控制访问顺序&#10;控制保存结点时机" />
@@ -622,7 +618,8 @@
     <MESSAGE value="抓住边角开始划分挺巧妙的思路" />
     <MESSAGE value="常规dp" />
     <MESSAGE value="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar" />
+    <MESSAGE value="就拿第一个字符串别的开始比" />
+    <option name="LAST_COMMIT_MESSAGE" value="就拿第一个字符串别的开始比" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
