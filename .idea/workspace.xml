@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="这两个路径和差不多，但感觉都没写的很确切的感觉">
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/图/岛屿最大面积_695/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,7 @@
     "Application.leetcode.lmy.com.二叉树中的最大路径和.Solution.executor": "Run",
     "Application.leetcode.lmy.com.二叉树的右视图_199.Solution.executor": "Run",
     "Application.leetcode.lmy.com.回溯.括号生成_22.Solution.executor": "Run",
+    "Application.leetcode.lmy.com.图.岛屿最大面积_695.Solution.executor": "Debug",
     "Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution.executor": "Run",
     "Application.leetcode.lmy.com.栈.字符串解码_394.Solution.executor": "Run",
     "Application.leetcode.lmy.com.模拟.比较版本号_165.Solution.executor": "Run",
@@ -81,14 +83,14 @@
       <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.链表.回文链表_234" />
       <recent name="leetcode.lmy.com.回溯.路径总和_112" />
       <recent name="leetcode.lmy.com.回溯.路径总和_113" />
       <recent name="leetcode.lmy.com.二叉树.验证二叉搜索树_98" />
       <recent name="leetcode.lmy.com.二叉树.平衡二叉树_110" />
-      <recent name="leetcode.lmy.com.回溯.组合总数_39" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.lmy.com.栈.字符串解码_394.Solution">
+  <component name="RunManager" selected="Application.leetcode.lmy.com.图.岛屿最大面积_695.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.模拟.字符串转换整数_8.Solution" />
       <module name="LeetCode" />
@@ -128,19 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.lmy.com.数学问题.下一个排列_31.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.lmy.com.数学问题.下一个排列_31.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="leetcode.lmy.com.栈.字符串解码_394.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.栈.字符串解码_394.Solution" />
       <module name="LeetCode" />
@@ -154,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.lmy.com.图.岛屿最大面积_695.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lmy.com.图.岛屿最大面积_695.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.lmy.com.图.岛屿最大面积_695.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode.lmy.com.图.岛屿最大面积_695.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.栈.字符串解码_394.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.模拟.比较版本号_165.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.leetcode.lmy.com.回溯.括号生成_22.Solution" />
-        <item itemvalue="Application.leetcode.lmy.com.数学问题.下一个排列_31.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -184,15 +186,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="48734000" />
-    </task>
-    <task id="LOCAL-00007" summary="dummy">
-      <option name="closed" value="true" />
-      <created>1731568468286</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1731568468286</updated>
+      <workItem from="1731635649328" duration="50677000" />
     </task>
     <task id="LOCAL-00008" summary="dummy">
       <option name="closed" value="true" />
@@ -578,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732181093758</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid">
+      <option name="closed" value="true" />
+      <created>1732241044383</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1732241044384</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="类似的问题dfs去访问遍历树的路径&#10;控制访问顺序&#10;控制保存结点时机" />
     <MESSAGE value="组合与排列&#10;组合foridx&#10;排列fori + boolean" />
     <MESSAGE value="精髓在于个位相乘的式子&#10;int p1 = i + j;//十位&#10;int p2 = i + j + 1;//个位&#10;int sum = num + res[p2];&#10;res[p2] = sum % 10;&#10;res[p1] += sum / 10;" />
     <MESSAGE value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
@@ -621,7 +622,8 @@
     <MESSAGE value="就拿第一个字符串别的开始比" />
     <MESSAGE value="一开始用原地哈希，后面发现他的连续序列其实从0或者从其他数都可以。&#10;这个用哈希表很巧妙的点在于，他一定会从nums - 1也就是这个最长子序列的头开始计数" />
     <MESSAGE value="这两个路径和差不多，但感觉都没写的很确切的感觉" />
-    <option name="LAST_COMMIT_MESSAGE" value="这两个路径和差不多，但感觉都没写的很确切的感觉" />
+    <MESSAGE value="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid" />
+    <option name="LAST_COMMIT_MESSAGE" value="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
