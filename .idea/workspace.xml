@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="一开始用原地哈希，后面发现他的连续序列其实从0或者从其他数都可以。&#10;这个用哈希表很巧妙的点在于，他一定会从nums - 1也就是这个最长子序列的头开始计数" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="这两个路径和差不多，但感觉都没写的很确切的感觉">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,11 +81,11 @@
       <recent name="leetcode.lmy.com.栈.用栈实现队列_232" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.回溯.路径总和_112" />
       <recent name="leetcode.lmy.com.回溯.路径总和_113" />
       <recent name="leetcode.lmy.com.二叉树.验证二叉搜索树_98" />
       <recent name="leetcode.lmy.com.二叉树.平衡二叉树_110" />
       <recent name="leetcode.lmy.com.回溯.组合总数_39" />
-      <recent name="leetcode.lmy.com.二叉树.二叉树最大深度_104" />
     </key>
   </component>
   <component name="RunManager" selected="Application.leetcode.lmy.com.栈.字符串解码_394.Solution">
@@ -182,15 +184,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="46599000" />
-    </task>
-    <task id="LOCAL-00006" summary="最长公共子序列和编辑距离&#10;本质都是根据末尾字符的比对，将问题又重新归结于子问题&#10;另外对于降低成一维问题，其实就是将dp[i - 1][j - 1]问题，存储pre">
-      <option name="closed" value="true" />
-      <created>1731555346242</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1731555346242</updated>
+      <workItem from="1731635649328" duration="48734000" />
     </task>
     <task id="LOCAL-00007" summary="dummy">
       <option name="closed" value="true" />
@@ -576,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732180327437</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="这两个路径和差不多，但感觉都没写的很确切的感觉">
+      <option name="closed" value="true" />
+      <created>1732181093758</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1732181093758</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="覆盖子串&#10;双指针 + 滑动窗口&#10;值得学习的点是用hashmap去维护窗口和t串之间的匹配情况" />
     <MESSAGE value="类似的问题dfs去访问遍历树的路径&#10;控制访问顺序&#10;控制保存结点时机" />
     <MESSAGE value="组合与排列&#10;组合foridx&#10;排列fori + boolean" />
     <MESSAGE value="精髓在于个位相乘的式子&#10;int p1 = i + j;//十位&#10;int p2 = i + j + 1;//个位&#10;int sum = num + res[p2];&#10;res[p2] = sum % 10;&#10;res[p1] += sum / 10;" />
@@ -619,7 +620,8 @@
     <MESSAGE value="回溯，注意是根到叶子结点，判断当前结点为叶子节点，再判断tar" />
     <MESSAGE value="就拿第一个字符串别的开始比" />
     <MESSAGE value="一开始用原地哈希，后面发现他的连续序列其实从0或者从其他数都可以。&#10;这个用哈希表很巧妙的点在于，他一定会从nums - 1也就是这个最长子序列的头开始计数" />
-    <option name="LAST_COMMIT_MESSAGE" value="一开始用原地哈希，后面发现他的连续序列其实从0或者从其他数都可以。&#10;这个用哈希表很巧妙的点在于，他一定会从nums - 1也就是这个最长子序列的头开始计数" />
+    <MESSAGE value="这两个路径和差不多，但感觉都没写的很确切的感觉" />
+    <option name="LAST_COMMIT_MESSAGE" value="这两个路径和差不多，但感觉都没写的很确切的感觉" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
