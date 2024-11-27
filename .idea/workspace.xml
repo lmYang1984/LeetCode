@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/图/岛屿最大面积_695/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="bfs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/二叉树/二叉树的最大宽度_662/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,15 +186,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="50677000" />
-    </task>
-    <task id="LOCAL-00008" summary="dummy">
-      <option name="closed" value="true" />
-      <created>1731568480793</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1731568480793</updated>
+      <workItem from="1731635649328" duration="53780000" />
     </task>
     <task id="LOCAL-00009" summary="删除重复元素&#10;dummy&#10;找到重复模式串，nxt指向末尾全部del">
       <option name="closed" value="true" />
@@ -580,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732241044384</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="bfs">
+      <option name="closed" value="true" />
+      <created>1732244142404</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1732244142405</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="组合与排列&#10;组合foridx&#10;排列fori + boolean" />
     <MESSAGE value="精髓在于个位相乘的式子&#10;int p1 = i + j;//十位&#10;int p2 = i + j + 1;//个位&#10;int sum = num + res[p2];&#10;res[p2] = sum % 10;&#10;res[p1] += sum / 10;" />
     <MESSAGE value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
     <MESSAGE value="用一个stack保存单调递减序列" />
@@ -623,7 +622,8 @@
     <MESSAGE value="一开始用原地哈希，后面发现他的连续序列其实从0或者从其他数都可以。&#10;这个用哈希表很巧妙的点在于，他一定会从nums - 1也就是这个最长子序列的头开始计数" />
     <MESSAGE value="这两个路径和差不多，但感觉都没写的很确切的感觉" />
     <MESSAGE value="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid" />
-    <option name="LAST_COMMIT_MESSAGE" value="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid" />
+    <MESSAGE value="bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="bfs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
