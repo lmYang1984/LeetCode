@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="传入的pos很巧妙，如果pos为0是给每一层的节点编号，如果pos为1则是给所有节点编号">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/最大数_179/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="说是贪心，感觉其实是考察自定义一个比较器，然后字符串a和b谁放前后，拼接之后比较一下就好了" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,15 +183,7 @@
       <workItem from="1731403487088" duration="4466000" />
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
-      <workItem from="1731635649328" duration="55326000" />
-    </task>
-    <task id="LOCAL-00010" summary="企图在a数组找到合适的i使得整个数组被均匀的分成两部分">
-      <option name="closed" value="true" />
-      <created>1731591916681</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1731591916681</updated>
+      <workItem from="1731635649328" duration="56009000" />
     </task>
     <task id="LOCAL-00011" summary="统一文件名">
       <option name="closed" value="true" />
@@ -580,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732673820357</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="说是贪心，感觉其实是考察自定义一个比较器，然后字符串a和b谁放前后，拼接之后比较一下就好了">
+      <option name="closed" value="true" />
+      <created>1732676195642</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1732676195643</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用快慢指针，只存非&quot; &quot;值然后手动翻转，很麻烦" />
     <MESSAGE value="用一个stack保存单调递减序列" />
     <MESSAGE value="递归，要知道回溯的时机" />
     <MESSAGE value="问题拆分成最小子问题，判断两颗子树是否对称" />
@@ -623,7 +619,8 @@
     <MESSAGE value="快慢指针找中点&#10;翻转链表&#10;注意翻转head还是mid" />
     <MESSAGE value="bfs" />
     <MESSAGE value="传入的pos很巧妙，如果pos为0是给每一层的节点编号，如果pos为1则是给所有节点编号" />
-    <option name="LAST_COMMIT_MESSAGE" value="传入的pos很巧妙，如果pos为0是给每一层的节点编号，如果pos为1则是给所有节点编号" />
+    <MESSAGE value="说是贪心，感觉其实是考察自定义一个比较器，然后字符串a和b谁放前后，拼接之后比较一下就好了" />
+    <option name="LAST_COMMIT_MESSAGE" value="说是贪心，感觉其实是考察自定义一个比较器，然后字符串a和b谁放前后，拼接之后比较一下就好了" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
