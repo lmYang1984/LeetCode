@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="动态规划">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/基本计算器_227/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/基本计算器_227/a.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="计算器">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/最长重复子数组_718/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,14 +187,6 @@
       <workItem from="1731465695279" duration="2649000" />
       <workItem from="1731468463128" duration="19284000" />
       <workItem from="1731635649328" duration="57244000" />
-    </task>
-    <task id="LOCAL-00013" summary="层序遍历">
-      <option name="closed" value="true" />
-      <created>1731636334780</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1731636334781</updated>
     </task>
     <task id="LOCAL-00014" summary="二分查找&#10;最后找出来的idx 是 l&#10;需要判断越界和是否相等">
       <option name="closed" value="true" />
@@ -581,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732870843283</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="计算器">
+      <option name="closed" value="true" />
+      <created>1733129700883</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1733129700883</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="问题拆分成最小子问题，判断两颗子树是否对称" />
     <MESSAGE value="递归比较简单，迭代要麻烦很多" />
     <MESSAGE value="这种带一个值传进去表达某一层结点的信息很适合带当前结点深度或者是说乘积之类的东西" />
     <MESSAGE value="感觉懵懵的也做出来了，一开始让i=0把顺序不同的结果也返回了，加了个idx过了，目的是限制一种顺序，递归下去的时候i不加1说明当前元素还能选" />
@@ -624,7 +622,8 @@
     <MESSAGE value="说是贪心，感觉其实是考察自定义一个比较器，然后字符串a和b谁放前后，拼接之后比较一下就好了" />
     <MESSAGE value="一个求众数的方法，就是给元素计算+1、-1" />
     <MESSAGE value="动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
+    <MESSAGE value="计算器" />
+    <option name="LAST_COMMIT_MESSAGE" value="计算器" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
