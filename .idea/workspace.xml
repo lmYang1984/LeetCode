@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="mac diff">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/打家劫舍_198/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="dp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/删除链表中的重复元素_83/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/删除链表中的重复元素_83/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +70,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
@@ -115,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732948527003</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dp">
+      <option name="closed" value="true" />
+      <created>1733193273209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733193273209</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +146,7 @@
     <MESSAGE value="最长公共子序列" />
     <MESSAGE value="1" />
     <MESSAGE value="mac diff" />
-    <option name="LAST_COMMIT_MESSAGE" value="mac diff" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
 </project>
