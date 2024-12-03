@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="ez" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="这个和另一种翻转有点区别，就是那种验证对称二叉树的">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/单词拆分_139/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
       <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
@@ -129,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733193720268</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="这个和另一种翻转有点区别，就是那种验证对称二叉树的">
+      <option name="closed" value="true" />
+      <created>1733195229608</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733195229608</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +164,7 @@
     <MESSAGE value="mac diff" />
     <MESSAGE value="dp" />
     <MESSAGE value="ez" />
-    <option name="LAST_COMMIT_MESSAGE" value="ez" />
+    <MESSAGE value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
+    <option name="LAST_COMMIT_MESSAGE" value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
   </component>
 </project>
