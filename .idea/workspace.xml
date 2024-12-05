@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="双指针+滑动窗口&#10;不用枚举所有子数组的case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/两两交换链表中的节点_24/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/两两交换链表中的节点_24/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="有点莫名奇妙写了">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/数学问题/排序数组_912/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733365279053</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="有点莫名奇妙写了">
+      <option name="closed" value="true" />
+      <created>1733365919920</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733365919920</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="dp[i]表示[0,i]能否被set组成&#10;每个i用j去递推&#10;[0,i - j]用dp判断和 用set组成[i - j, i]" />
     <MESSAGE value="前缀和+哈希表&#10;理解子数组和子序列" />
     <MESSAGE value="双指针+滑动窗口&#10;不用枚举所有子数组的case" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针+滑动窗口&#10;不用枚举所有子数组的case" />
+    <MESSAGE value="有点莫名奇妙写了" />
+    <option name="LAST_COMMIT_MESSAGE" value="有点莫名奇妙写了" />
   </component>
 </project>
