@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="翻转k个结点，考虑翻转后link的pre和翻转后link的next">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/双指针/三数之和_15/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="双指针">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/最大子数组和_53/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733389573427</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="双指针">
+      <option name="closed" value="true" />
+      <created>1733390317093</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733390317093</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +278,7 @@
     <MESSAGE value="三指针，你可以理解为遍历链表，依此把cur的next进行修改" />
     <MESSAGE value="topK" />
     <MESSAGE value="翻转k个结点，考虑翻转后link的pre和翻转后link的next" />
-    <option name="LAST_COMMIT_MESSAGE" value="翻转k个结点，考虑翻转后link的pre和翻转后link的next" />
+    <MESSAGE value="双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="双指针" />
   </component>
 </project>
