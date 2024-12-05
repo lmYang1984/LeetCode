@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="这个和另一种翻转有点区别，就是那种验证对称二叉树的">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/单词拆分_139/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="dp[i]表示[0,i]能否被set组成&#10;每个i用j去递推&#10;[0,i - j]用dp判断和 用set组成[i - j, i]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/和为k的子数组_560/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/和为k的子数组_560/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,25 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/AAAJavaSrc/LeetCode/src/main/java/leetcode/lmy/com/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/haiguanjike/Desktop/JavaCode/LeetCode/src/main/java/leetcode/lmy/com/模拟",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/AAAJavaSrc/LeetCode/src/main/java/leetcode/lmy/com/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
@@ -141,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733195229608</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dp[i]表示[0,i]能否被set组成&#10;每个i用j去递推&#10;[0,i - j]用dp判断和 用set组成[i - j, i]">
+      <option name="closed" value="true" />
+      <created>1733210256276</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733210256276</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +178,7 @@
     <MESSAGE value="dp" />
     <MESSAGE value="ez" />
     <MESSAGE value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
-    <option name="LAST_COMMIT_MESSAGE" value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
+    <MESSAGE value="dp[i]表示[0,i]能否被set组成&#10;每个i用j去递推&#10;[0,i - j]用dp判断和 用set组成[i - j, i]" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp[i]表示[0,i]能否被set组成&#10;每个i用j去递推&#10;[0,i - j]用dp判断和 用set组成[i - j, i]" />
   </component>
 </project>
