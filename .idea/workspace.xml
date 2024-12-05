@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="topK" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="翻转k个结点，考虑翻转后link的pre和翻转后link的next">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/双指针/三数之和_15/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,11 +73,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.链表.K个一组翻转链表_25" />
       <recent name="leetcode.lmy.com.双指针.反转链表_206" />
       <recent name="leetcode.lmy.com.链表.两两交换链表中的节点_24" />
       <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
-      <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -224,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733387866236</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="翻转k个结点，考虑翻转后link的pre和翻转后link的next">
+      <option name="closed" value="true" />
+      <created>1733389573427</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733389573427</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +269,7 @@
     <MESSAGE value="LRU&#10;哈希表+双向链表" />
     <MESSAGE value="三指针，你可以理解为遍历链表，依此把cur的next进行修改" />
     <MESSAGE value="topK" />
-    <option name="LAST_COMMIT_MESSAGE" value="topK" />
+    <MESSAGE value="翻转k个结点，考虑翻转后link的pre和翻转后link的next" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻转k个结点，考虑翻转后link的pre和翻转后link的next" />
   </component>
 </project>
