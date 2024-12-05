@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="滑动窗口+哈希表">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/LRU缓存_146/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="LRU&#10;哈希表+双向链表">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/双指针/反转链表_206/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/双指针/反转链表_206/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +74,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.双指针.反转链表_206" />
       <recent name="leetcode.lmy.com.链表.两两交换链表中的节点_24" />
       <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733383312382</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="LRU&#10;哈希表+双向链表">
+      <option name="closed" value="true" />
+      <created>1733385775235</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733385775235</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +243,7 @@
     <MESSAGE value="堆排序&#10;建堆，把堆头放入堆尾排序" />
     <MESSAGE value="快慢指针" />
     <MESSAGE value="滑动窗口+哈希表" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口+哈希表" />
+    <MESSAGE value="LRU&#10;哈希表+双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="LRU&#10;哈希表+双向链表" />
   </component>
 </project>
