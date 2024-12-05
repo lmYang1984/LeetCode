@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="双指针">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/动态规划/最大子数组和_53/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="这个和另一种翻转有点区别，就是那种验证对称二叉树的">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/快排_912/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,35 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/haiguanjike/Desktop/JavaCode/LeetCode/src/main/java/leetcode/lmy/com/模拟",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/AAAJavaSrc/LeetCode/src/main/java/leetcode/lmy/com/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/AAAJavaSrc/LeetCode/src/main/java/leetcode/lmy/com/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcode.lmy.com.链表.K个一组翻转链表_25" />
-      <recent name="leetcode.lmy.com.双指针.反转链表_206" />
-      <recent name="leetcode.lmy.com.链表.两两交换链表中的节点_24" />
       <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
+      <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -147,103 +141,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733195229608</updated>
     </task>
-    <task id="LOCAL-00007" summary="dp[i]表示[0,i]能否被set组成&#10;每个i用j去递推&#10;[0,i - j]用dp判断和 用set组成[i - j, i]">
-      <option name="closed" value="true" />
-      <created>1733210256276</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1733210256276</updated>
-    </task>
-    <task id="LOCAL-00008" summary="前缀和+哈希表&#10;理解子数组和子序列">
-      <option name="closed" value="true" />
-      <created>1733364065397</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1733364065397</updated>
-    </task>
-    <task id="LOCAL-00009" summary="双指针+滑动窗口&#10;不用枚举所有子数组的case">
-      <option name="closed" value="true" />
-      <created>1733365279053</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1733365279053</updated>
-    </task>
-    <task id="LOCAL-00010" summary="有点莫名奇妙写了">
-      <option name="closed" value="true" />
-      <created>1733365919920</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1733365919920</updated>
-    </task>
-    <task id="LOCAL-00011" summary="堆排序&#10;建堆，把堆头放入堆尾排序">
-      <option name="closed" value="true" />
-      <created>1733368822543</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1733368822543</updated>
-    </task>
-    <task id="LOCAL-00012" summary="快慢指针">
-      <option name="closed" value="true" />
-      <created>1733368994132</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1733368994132</updated>
-    </task>
-    <task id="LOCAL-00013" summary="滑动窗口+哈希表">
-      <option name="closed" value="true" />
-      <created>1733383312382</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1733383312382</updated>
-    </task>
-    <task id="LOCAL-00014" summary="LRU&#10;哈希表+双向链表">
-      <option name="closed" value="true" />
-      <created>1733385775235</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1733385775235</updated>
-    </task>
-    <task id="LOCAL-00015" summary="三指针，你可以理解为遍历链表，依此把cur的next进行修改">
-      <option name="closed" value="true" />
-      <created>1733386736512</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1733386736512</updated>
-    </task>
-    <task id="LOCAL-00016" summary="topK">
-      <option name="closed" value="true" />
-      <created>1733387866236</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1733387866236</updated>
-    </task>
-    <task id="LOCAL-00017" summary="翻转k个结点，考虑翻转后link的pre和翻转后link的next">
-      <option name="closed" value="true" />
-      <created>1733389573427</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1733389573427</updated>
-    </task>
-    <task id="LOCAL-00018" summary="双指针">
-      <option name="closed" value="true" />
-      <created>1733390317093</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1733390317093</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,18 +165,6 @@
     <MESSAGE value="dp" />
     <MESSAGE value="ez" />
     <MESSAGE value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
-    <MESSAGE value="dp[i]表示[0,i]能否被set组成&#10;每个i用j去递推&#10;[0,i - j]用dp判断和 用set组成[i - j, i]" />
-    <MESSAGE value="前缀和+哈希表&#10;理解子数组和子序列" />
-    <MESSAGE value="双指针+滑动窗口&#10;不用枚举所有子数组的case" />
-    <MESSAGE value="有点莫名奇妙写了" />
-    <MESSAGE value="堆排序&#10;建堆，把堆头放入堆尾排序" />
-    <MESSAGE value="快慢指针" />
-    <MESSAGE value="滑动窗口+哈希表" />
-    <MESSAGE value="LRU&#10;哈希表+双向链表" />
-    <MESSAGE value="三指针，你可以理解为遍历链表，依此把cur的next进行修改" />
-    <MESSAGE value="topK" />
-    <MESSAGE value="翻转k个结点，考虑翻转后link的pre和翻转后link的next" />
-    <MESSAGE value="双指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
   </component>
 </project>
