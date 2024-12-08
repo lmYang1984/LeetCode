@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="快排">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/最长回文子串_5/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="中心扩散方式，记住返回位置的边界" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733401261960</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="中心扩散方式，记住返回位置的边界">
+      <option name="closed" value="true" />
+      <created>1733673870530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733673870530</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +179,7 @@
     <MESSAGE value="ez" />
     <MESSAGE value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
     <MESSAGE value="快排" />
-    <option name="LAST_COMMIT_MESSAGE" value="快排" />
+    <MESSAGE value="中心扩散方式，记住返回位置的边界" />
+    <option name="LAST_COMMIT_MESSAGE" value="中心扩散方式，记住返回位置的边界" />
   </component>
 </project>
