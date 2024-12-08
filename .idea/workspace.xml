@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="中心扩散方式，记住返回位置的边界" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="层序遍历" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +66,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树.树的层序遍历_102" />
       <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
       <recent name="leetcode.lmy.com.二叉树的直径" />
@@ -154,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733673870530</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="层序遍历">
+      <option name="closed" value="true" />
+      <created>1733674261607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733674261607</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +189,7 @@
     <MESSAGE value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
     <MESSAGE value="快排" />
     <MESSAGE value="中心扩散方式，记住返回位置的边界" />
-    <option name="LAST_COMMIT_MESSAGE" value="中心扩散方式，记住返回位置的边界" />
+    <MESSAGE value="层序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="层序遍历" />
   </component>
 </project>
