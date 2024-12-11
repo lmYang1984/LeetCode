@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="ez">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="层序遍历" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +66,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.二叉树.二叉树锯齿状层序遍历_103" />
       <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
       <recent name="leetcode.lmy.com.二叉树的直径" />
@@ -188,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733884916631</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="层序遍历">
+      <option name="closed" value="true" />
+      <created>1733885576626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733885576626</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +223,7 @@
     <MESSAGE value="dq + bfs" />
     <MESSAGE value="区分排列和排序" />
     <MESSAGE value="ez" />
-    <option name="LAST_COMMIT_MESSAGE" value="ez" />
+    <MESSAGE value="层序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="层序遍历" />
   </component>
 </project>
