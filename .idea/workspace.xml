@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="creat file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ox3F/lmy/com/相向双指针/三数之和_15/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ox3F/lmy/com/相向双指针/两数之和II_167/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="hashmap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +68,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcode.lmy.com.二叉树.二叉树的最近公共祖先_236" />
-      <recent name="leetcode.lmy.com.双指针.环形链表_141" />
-      <recent name="leetcode.lmy.com.二叉树.二叉树锯齿状层序遍历_103" />
+      <recent name="leetcode.lmy.com.二叉树.树的层序遍历_102" />
       <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
       <recent name="leetcode.lmy.com.链表.删除链表中的重复元素_83" />
+      <recent name="leetcode.lmy.com.二叉树的直径" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -152,79 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733401261960</updated>
     </task>
-    <task id="LOCAL-00008" summary="三次二分">
+    <task id="LOCAL-00008" summary="中心扩散方式，记住返回位置的边界">
       <option name="closed" value="true" />
-      <created>1733882044144</created>
+      <created>1733673870530</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1733882044144</updated>
+      <updated>1733673870530</updated>
     </task>
-    <task id="LOCAL-00009" summary="dq + bfs">
+    <task id="LOCAL-00009" summary="层序遍历">
       <option name="closed" value="true" />
-      <created>1733883192203</created>
+      <created>1733674261607</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1733883192203</updated>
+      <updated>1733674261607</updated>
     </task>
-    <task id="LOCAL-00010" summary="区分排列和排序">
-      <option name="closed" value="true" />
-      <created>1733884116989</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1733884116989</updated>
-    </task>
-    <task id="LOCAL-00011" summary="ez">
-      <option name="closed" value="true" />
-      <created>1733884581442</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1733884581442</updated>
-    </task>
-    <task id="LOCAL-00012" summary="ez">
-      <option name="closed" value="true" />
-      <created>1733884916631</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1733884916631</updated>
-    </task>
-    <task id="LOCAL-00013" summary="层序遍历">
-      <option name="closed" value="true" />
-      <created>1733885576626</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1733885576626</updated>
-    </task>
-    <task id="LOCAL-00014" summary="ez">
-      <option name="closed" value="true" />
-      <created>1733885928457</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1733885928457</updated>
-    </task>
-    <task id="LOCAL-00015" summary="lca">
-      <option name="closed" value="true" />
-      <created>1733886265351</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1733886265351</updated>
-    </task>
-    <task id="LOCAL-00016" summary="creat file">
-      <option name="closed" value="true" />
-      <created>1733886590290</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1733886590290</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,15 +187,15 @@
     <MESSAGE value="1" />
     <MESSAGE value="mac diff" />
     <MESSAGE value="dp" />
+    <MESSAGE value="ez" />
     <MESSAGE value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
     <MESSAGE value="快排" />
-    <MESSAGE value="三次二分" />
-    <MESSAGE value="dq + bfs" />
-    <MESSAGE value="区分排列和排序" />
+    <MESSAGE value="中心扩散方式，记住返回位置的边界" />
     <MESSAGE value="层序遍历" />
-    <MESSAGE value="ez" />
-    <MESSAGE value="lca" />
-    <MESSAGE value="creat file" />
-    <option name="LAST_COMMIT_MESSAGE" value="creat file" />
+    <option name="LAST_COMMIT_MESSAGE" value="层序遍历" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
