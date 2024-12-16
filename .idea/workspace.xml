@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="while (i &gt;= 0 || j &gt;= 0)" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="尾对齐" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +66,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.链表.相交链表_160" />
       <recent name="leetcode.lmy.com.链表.合并K个升序链表_23" />
       <recent name="leetcode.lmy.com.二叉树.二叉树的最近公共祖先_236" />
       <recent name="leetcode.lmy.com.双指针.环形链表_141" />
       <recent name="leetcode.lmy.com.二叉树.二叉树锯齿状层序遍历_103" />
-      <recent name="leetcode.lmy.com.二叉树.翻转二叉树_226" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -252,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734337270779</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="尾对齐">
+      <option name="closed" value="true" />
+      <created>1734337679197</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1734337679197</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +294,7 @@
     <MESSAGE value="for控制边界移动" />
     <MESSAGE value="dp" />
     <MESSAGE value="while (i &gt;= 0 || j &gt;= 0)" />
-    <option name="LAST_COMMIT_MESSAGE" value="while (i &gt;= 0 || j &gt;= 0)" />
+    <MESSAGE value="尾对齐" />
+    <option name="LAST_COMMIT_MESSAGE" value="尾对齐" />
   </component>
 </project>
