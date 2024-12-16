@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="creat file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/合并K个升序链表_23/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/链表/合并K个升序链表_23/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="考察优先队列、lambda表达式写法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/螺旋矩阵_53/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733886590290</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="考察优先队列、lambda表达式写法">
+      <option name="closed" value="true" />
+      <created>1734319951591</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734319951591</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +262,7 @@
     <MESSAGE value="ez" />
     <MESSAGE value="lca" />
     <MESSAGE value="creat file" />
-    <option name="LAST_COMMIT_MESSAGE" value="creat file" />
+    <MESSAGE value="考察优先队列、lambda表达式写法" />
+    <option name="LAST_COMMIT_MESSAGE" value="考察优先队列、lambda表达式写法" />
   </component>
 </project>
