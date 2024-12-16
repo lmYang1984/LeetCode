@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="考察优先队列、lambda表达式写法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/lmy/com/模拟/螺旋矩阵_53/Solution.java" afterDir="false" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="dp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734319951591</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="for控制边界移动">
+      <option name="closed" value="true" />
+      <created>1734334081942</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734334081942</updated>
+    </task>
+    <task id="LOCAL-00019" summary="dp">
+      <option name="closed" value="true" />
+      <created>1734334461403</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734334461403</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +267,6 @@
     <MESSAGE value="最长公共子序列" />
     <MESSAGE value="1" />
     <MESSAGE value="mac diff" />
-    <MESSAGE value="dp" />
     <MESSAGE value="这个和另一种翻转有点区别，就是那种验证对称二叉树的" />
     <MESSAGE value="快排" />
     <MESSAGE value="三次二分" />
@@ -263,6 +277,8 @@
     <MESSAGE value="lca" />
     <MESSAGE value="creat file" />
     <MESSAGE value="考察优先队列、lambda表达式写法" />
-    <option name="LAST_COMMIT_MESSAGE" value="考察优先队列、lambda表达式写法" />
+    <MESSAGE value="for控制边界移动" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
 </project>
