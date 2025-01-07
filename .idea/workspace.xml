@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="尾对齐" />
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="find mid&#10;reverse&#10;insert">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +68,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.lmy.com.链表.重排链表_143" />
       <recent name="leetcode.lmy.com.链表.相交链表_160" />
       <recent name="leetcode.lmy.com.链表.合并K个升序链表_23" />
       <recent name="leetcode.lmy.com.二叉树.二叉树的最近公共祖先_236" />
       <recent name="leetcode.lmy.com.双指针.环形链表_141" />
-      <recent name="leetcode.lmy.com.二叉树.二叉树锯齿状层序遍历_103" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -91,6 +93,8 @@
       <updated>1731054070693</updated>
       <workItem from="1731054071646" duration="9684000" />
       <workItem from="1732948442105" duration="316000" />
+      <workItem from="1734490894787" duration="6700000" />
+      <workItem from="1736127003611" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -260,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734337679197</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="find mid&#10;reverse&#10;insert">
+      <option name="closed" value="true" />
+      <created>1734341426759</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734341426759</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +307,7 @@
     <MESSAGE value="dp" />
     <MESSAGE value="while (i &gt;= 0 || j &gt;= 0)" />
     <MESSAGE value="尾对齐" />
-    <option name="LAST_COMMIT_MESSAGE" value="尾对齐" />
+    <MESSAGE value="find mid&#10;reverse&#10;insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="find mid&#10;reverse&#10;insert" />
   </component>
 </project>
