@@ -1,4 +1,4 @@
-package ox3F.lmy.com.相向双指针.统计和小于目标的下标对数目_2824;
+package ox3F.lmy.com.相向双指针0.统计和小于目标的下标对数目_2824;
 
 import java.util.Collections;
 import java.util.List;

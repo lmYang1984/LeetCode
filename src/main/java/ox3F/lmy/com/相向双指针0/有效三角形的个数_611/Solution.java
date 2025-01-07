@@ -1,4 +1,4 @@
-package ox3F.lmy.com.相向双指针.有效三角形的个数_611;
+package ox3F.lmy.com.相向双指针0.有效三角形的个数_611;
 
 import java.util.Arrays;
 

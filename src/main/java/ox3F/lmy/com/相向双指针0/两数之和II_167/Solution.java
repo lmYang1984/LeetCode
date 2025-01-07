@@ -1,4 +1,4 @@
-package ox3F.lmy.com.相向双指针.两数之和II_167;
+package ox3F.lmy.com.相向双指针0.两数之和II_167;
 
 /**
  * 原本是n方的复杂度
