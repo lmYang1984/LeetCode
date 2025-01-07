@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="相向双指针">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ox3F/lmy/com/相向双指针/最接近的三数之和_16/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a28c484-6b49-42b8-b13b-ff087bbd00c7" name="Changes" comment="相向双指针" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,11 +66,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ox3F.lmy.com.相向双指针.最接近的三数之和_16" />
       <recent name="leetcode.lmy.com.链表.重排链表_143" />
       <recent name="leetcode.lmy.com.链表.相交链表_160" />
       <recent name="leetcode.lmy.com.链表.合并K个升序链表_23" />
       <recent name="leetcode.lmy.com.二叉树.二叉树的最近公共祖先_236" />
-      <recent name="leetcode.lmy.com.双指针.环形链表_141" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -94,7 +92,7 @@
       <workItem from="1731054071646" duration="9684000" />
       <workItem from="1732948442105" duration="316000" />
       <workItem from="1734490894787" duration="6700000" />
-      <workItem from="1736127003611" duration="2697000" />
+      <workItem from="1736127003611" duration="3586000" />
     </task>
     <task id="LOCAL-00001" summary="最长公共子序列">
       <option name="closed" value="true" />
@@ -280,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736226699121</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="相向双指针">
+      <option name="closed" value="true" />
+      <created>1736227810723</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736227810723</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
